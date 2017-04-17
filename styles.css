@@ -1,0 +1,95 @@
+body {
+  padding: 20px;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+  border: 3px inset grey;
+  text-align: center;
+}
+
+h1 {
+  border: 8px inset grey;
+  outline-color: black
+  background-color: navajowhite;
+  text-align: center;
+  font-size: 42px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  padding: 8px;
+  margin-top: 40px;
+  font-size: 23px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: navajowhite;
+  background-color: black;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+p {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+}
+
+
+.free_text {
+  font-size: 20px;
+  font-family: optima;
+}
+
+table {
+  border: 6px inset gold;
+  margin: auto;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#table_header {
+  font: times;
+  font-size: 23px;
+  background-color: gold;
+}
+
+
+ul {
+  list-style-type: circle;
+
+}
+
+ol {
+}
+
+a {
+    color: goldenrod;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 24px;
+    background-color: navajowhite;
+  }
+
+
+
+
